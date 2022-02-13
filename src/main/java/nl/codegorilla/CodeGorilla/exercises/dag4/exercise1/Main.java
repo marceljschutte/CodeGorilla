@@ -1,4 +1,4 @@
-package nl.codegorilla.CodeGorilla.exercises.dag3.exercise5;
+package nl.codegorilla.CodeGorilla.exercises.dag4.exercise1;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -19,8 +19,6 @@ public class Main {
         studentB.setResultaten(Collections.emptyMap());
 
         if(studentA.equals(studentB) && studentA.toString().equals(studentB.toString())){
-            System.out.println(studentA);
-            System.out.println(studentB);
             System.out.println("Als je dit leest, dan werkt alles naar behoren en is de opdracht succesvol afgerond");
         }
     }
